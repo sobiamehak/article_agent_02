@@ -1,10 +1,8 @@
-
 import os
 from dotenv import load_dotenv
 from typing import cast
 import chainlit as cl
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel ,RunConfig
-
 
 # Load environment variables from .env file
 load_dotenv()
